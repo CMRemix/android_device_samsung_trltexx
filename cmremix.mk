@@ -18,7 +18,7 @@
 $(call inherit-product, device/samsung/trltexx/full_trltexx.mk)
 
 # Inherit common LineageOS phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cmremix/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := trltexx
-PRODUCT_NAME := lineage_trltexx
+PRODUCT_NAME := cmremix_trltexx
